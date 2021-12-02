@@ -1,0 +1,155 @@
+
+
+@media screen and (max-width: 768px) {
+  
+    .nav__links {
+      position: fixed;
+      background-color: #fff;
+      width: 100%;
+      border-radius: 10px;
+      visibility: hidden;
+      box-shadow:
+          0 10px 27px rgba(0, 0, 0, 0.05);
+
+  }
+
+  .nav__links.active {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    top: 3.7rem;
+    left: 0;
+    transition: 0.3s;
+    visibility: visible;
+    border-bottom: 1px solid black;
+    
+
+  }
+
+  .nav-item {
+      margin: 1rem 0;
+      display: block;
+  }
+
+  .hamburger {
+      display: block;
+      cursor: pointer;
+  }
+
+
+  .sectionOne{
+    justify-content: space-between;
+    width: 100%;
+
+    .sectionOne__links{
+      padding: 0;
+    }
+  }
+
+
+  .container{
+    width: 100%;
+
+    .main-container{
+      display: flex;
+      flex-direction: column;
+      max-height: 100%;
+  
+      .left{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 50px 0;
+        .contents{
+          width: 100%;
+          h1{
+            font-size: 70px;
+          }
+
+          p{
+            width: 350px;
+            text-align: center;
+            font-size: 18px;
+          }
+        }
+      }
+
+      .right{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        width: 55%;
+
+        image{
+          width: 100%;
+          height: auto;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          img{
+            width: 70%;
+          }
+        }
+      }
+
+      .scroll{
+        margin: 50px 0;
+      }
+    }
+
+
+  }
+
+    .sectionThree{
+      
+      .contentsThree{
+          width: 100%;
+          height: 100%;
+          display: flex;
+          margin-left: auto;
+          margin-right: auto;
+
+          .text{
+              width: 50%;
+              display: flex;
+              justify-content: left;
+              flex-direction: column;
+              text-align: center;
+
+              p{
+                  margin: 15px 15px;
+                  align-items: left;
+              }
+
+              .number{
+                  font-size: 30px;
+                  font-weight: 600;
+              }
+          }
+
+          .content{
+              width: 50%;
+              display: flex;
+              align-items: center;
+
+              .image2{
+                  width: 100%;
+              }
+          }
+      }
+  }
+
+  #footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .text{
+      margin-bottom: 10px;
+    }
+  }
+  
+}
+
+

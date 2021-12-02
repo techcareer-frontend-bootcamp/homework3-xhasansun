@@ -1,0 +1,51 @@
+li, a, button{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px 17%;
+    background-color: #F4F4F6;
+    box-shadow: rgba(0, 0, 0, 0.05) 1.95px 1.95px 2.6px;
+    z-index: 9999;
+}
+
+
+.logo{
+    margin-right: auto;
+}
+
+.nav__links{
+    list-style: none;
+}
+
+.nav__links li{
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.nav__links li a{
+    color: black;
+}
+
+button{
+    font-size: 15px;
+    padding: 8px 20px;
+    background-color: black;
+    border: none;
+    border-radius: 20px;
+    color: white;
+}
+
+
+.hamburger{
+    display: none;
+    margin: 0 10px;
+}
+

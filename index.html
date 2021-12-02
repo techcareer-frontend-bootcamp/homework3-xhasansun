@@ -1,33 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Landing Page - Apple ipods</title>
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
+
 <body>
     <!-- HEADER -->
     <header>
-        <nav class="nav"> 
-
-        </nav> 
+        <div class="logo">
+            <h3>AirPods</h3>
+        </div>
+        <nav>
+            <ul class="nav__links">
+                <li class="nav-item">
+                    <a href="#sectionOne">Description</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#sectionThree">Features</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <a href="#">
+                    <i class='bx bx-menu bx-md'></i>
+                </a>
+            </div>
+        </nav>
+        <a class="compare" href="#"><button type="button">Compare</button></a>
     </header>
 
     <!-- MAIN CONTENT -->
-    <main> 
-        
+    <main>
+
+        <!-- SECTİON ONE -->
+        <section id="sectionOne">
+            <div class="sectionOne">
+                <ul class="sectionOne__links">
+                    <li class="sectionOne__items">
+                        <img src="assets/img/icon1.svg" alt="">
+                        <p>AirPods <br> 2</p>
+                    </li>
+                    <li class="sectionOne__items">
+                        <img src="assets/img/icon3.svg" alt="">
+                        <p>AirPods <br> 2</p>
+                    </li>
+                    <li class="sectionOne__items">
+                        <img src="assets/img/icon4.svg" alt="">
+                        <p>AirPods <br> 2</p>
+                    </li>
+                    <li class="sectionOne__items">
+                        <img src="assets/img/icon6.svg" alt="">
+                        <p>AirPods <br> 2</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- SECTİON TWO -->
+        <section>
+            <div class="container">
+                <div class="main-container">
+                    <div class="left">
+                        <div class="contents">
+                            <h1>AirPods</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur
+                                 adipisicing elit. Deleniti mollitia
+                                  quis laudantium ab totam sit 
+                                  corporis omnis debitis. Magnam 
+                                  aliquam quibusdam adipisci ut.
+                                </p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="image">
+                            <img src="assets/img/airpod1.png" alt="">
+                            <img src="assets/img/airpod2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="scroll">
+                        <p>Scroll down for more</p>
+                        <a href="#sectionThree">
+                            <i class='bx bx-mouse bx-md' ></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- SECTİON THREE -->
+        <section id="sectionThree">
+            <div class="sectionThree">
+                <div class="contentsThree">
+                    <div class="text">
+                        <p>
+                            More than <br>
+                            <span class="number">24 <small> h </small></span> 
+                            <br>
+                            of battery life 
+                            <br> with charging case 
+                        </p>
+                        <p>
+                            Up to <br>
+                            <span class="number">5 <small> h</small></span>
+                            <br>
+                            of battery life 
+                            <br> on a single charge 
+                        </p>
+                        <p>
+                            just <br>
+                            <span class="number">15<small> min</small></span>
+                            <br>
+                            of charge equals <br>
+                            up to 3 hours of <br>
+                            audio
+                            
+                        </p>
+                    </div>
+                    <div class="content">
+                        <div class="image2">
+                            <img src="assets/img/airpods.png" alt="">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <!-- FOOTER -->
-    <footer id="footer"> 
-
+    <footer id="footer">
+        <div class="text">
+            Lorem ipsum dolor sit amet.
+        </div>
+        <div class="social">
+            <a href="#">
+                <i class='bx bxl-youtube bx-sm' ></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-instagram bx-sm' ></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-linkedin bx-sm' ></i>
+            </a>
+            <a href="#">
+                <i class='bx bxl-twitter bx-sm' ></i>
+            </a>
+        </div>
     </footer>
 
     <!-- MAIN JS -->
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
